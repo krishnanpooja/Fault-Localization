@@ -1,4 +1,4 @@
-#Exploring the Relationship between Design Metrics and Software Diagnostics using Machine Learning 
+# Exploring the Relationship between Design Metrics and Software Diagnostics using Machine Learning 
 This repository contains python scripts for required to extract metrics for DEFECTS4J Project. 
 Two '.csv' files containing the training data. The model was built using Weka v3.8.
 
@@ -6,12 +6,12 @@ Two '.csv' files containing the training data. The model was built using Weka v3
 1. Eclipse Plugin CodePro, SourceMonitor
 2. Weka version 3.8
 
-#Python Scripts:
+## Python Scripts:
 Each python script contains relevant comments on its usage in the beginning of the file.
 In general, most of the Python scripts need to be provided with the path of the folders as argument.
 example:-`python DDU.py filepath`
 
-##Datasets:
+## Datasets:
 Two .csv files :
 1. `TrainingData_2.csv` contains overall data. Used for testing Static, Dynamic,Test and Bug metrics seperately. Contains labels - Good, Bad and Unknown
 2.  `Training_2_GoodBad.csv` contains only relevant metrics. Can be used to test the final best model. Labels- Good and Bad.
