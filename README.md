@@ -1,6 +1,6 @@
 # Exploring the Relationship between Design Metrics and Software Diagnostics using Machine Learning 
-This repository contains python scripts for required to extract metrics for DEFECTS4J Project. 
-Two '.csv' files containing the training data. The model was built using Weka v3.8.
+This repository contains python scripts required to extract metrics for DEFECTS4J Project. 
+Two '.csv' files containing the training data. A Machine Learning model built using Weka v3.8.
 
 ## Requirement:
 1. Eclipse Plugin CodePro, SourceMonitor
@@ -20,8 +20,17 @@ Two .csv files :
 1. Load the training set  `Training_2_GoodBad.csv` on Weka. 
 2. Parameter list check the File attribute and press 'Remove'. Its not a relevant attribute for modeling.
 3. Classify tab. Load the 'BestModel' in the model folder. Right click on the model and choose the option 'Reapply this models configuration'. 
-4. Choose K fold. Set the number of folds to 12( for a good result)
+4. Choose K fold. Set the number of folds to 7( for a good result)
 5. Press Start.
+
+Model: Random Forests
+Attributes: Based on correlation matrix
+Labels: Three labels – Good , Bad
+7 fold cross validation
+
+`Result`
+Correctly Classified     90.2736%
+Incorrectly Classified   8.7349 %
 
 ## List of Important Metrics
 1.Lines
