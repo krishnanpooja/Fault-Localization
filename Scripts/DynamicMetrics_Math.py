@@ -1,5 +1,7 @@
 '''
-Returns Dynamic Metric for MATH project. Update the filepath for MATH call graphs. Please use jdcallgrpah_parser.py script for the call graphs before using this code.
+Returns Dynamic Metric for MATH project. Update the filepath for MATH call graphs. Please use jdcallgrpah_parser.py script 
+for the call graphs before using this code.
+If CallGraphs for certain buggy versions are not available then please add the buggy version number in the 'if' clause below.
 '''
 from pygraphviz import *
 import os
@@ -42,7 +44,7 @@ in_list=[]
 out_list=[]
 parent=[]
 for i in range(1,107):
-    ##print i
+    ##Call Graphs not available for these versions
     if i in (3,4,6,15,16,18,19,20,59,63,79):
       continue
     path = '/mnt/c/Users/Pooja/Desktop/2ndsem/Praktikum/graphs/Math_onlyFailingTests/Math_onlyFailingTests/'+str(i)+'/ddg/'
