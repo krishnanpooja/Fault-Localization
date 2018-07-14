@@ -28,28 +28,28 @@ Attributes: Based on correlation matrix
 Labels: Three labels – Good , Bad
 7 fold cross validation
 
-`Result`
-Correctly Classified     90.2736%
-Incorrectly Classified   8.7349 %
+`Result`  
+Correctly Classified     90.2736%  
+Incorrectly Classified   8.7349 %  
 
 ## List of Important Metrics
-1.Lines
-2.Max Complexity
-3.Max Depth
-4.num_of_tests
-5.num_of_passed_tests
-6.num_of_failed_tests
-7.CBO
-8.IFC(Information Flow complexity)
-9.Density
-10.Diversity
-11.Uniqueness
-12.DDU
-13.No of Modified 
-14.No of Chunks
-15.No of Failing tests
-16.No of Repair Actions
-17.Exception Type
+1.Lines  
+2.Max Complexity  
+3.Max Depth  
+4.num_of_tests  
+5.num_of_passed_tests  
+6.num_of_failed_tests  
+7.CBO(Coupling between Objects)  
+8.IFC(Information Flow complexity)  
+9.Density  
+10.Diversity  
+11.Uniqueness  
+12.DDU  
+13.No of Modified   
+14.No of Chunks  
+15.No of Failing tests  
+16.No of Repair Actions  
+17.Exception Type  
 
 ## TODO
 1. Collect more metrics esp. Dynamic.
