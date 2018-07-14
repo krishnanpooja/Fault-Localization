@@ -1,5 +1,6 @@
 '''
-Returns Dynamic Metric for all projects except for MATH. Please use jdcallgrpah_parser.py script for the call graphs before using this code.Update the  '_stripped' to '_bold' to generate out and in degree of data dependency graph
+Returns Dynamic Metric for all projects except for MATH. Please use jdcallgrpah_parser.py script for the call graphs 
+before using this code.Update the  '_stripped' to '_bold' to generate out and in degree of data dependency graph
 '''
 from pygraphviz import *
 import pydot
